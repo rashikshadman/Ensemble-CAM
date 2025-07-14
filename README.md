@@ -1,5 +1,5 @@
 Presentation attacks are a prevalent security concern today. Imposters 
-attempt to gain access to restricted resources using fake biometric data such as face, fngerprint, or iris
+attempt to gain access to restricted resources using fake biometric data such as face, fingerprint, or iris
 images. Various presentation attack detection (PAD) systems have
 been designed leveraging deep learning (DL) models. But in most
 cases, DL models function as black boxes - their decisions are
@@ -18,4 +18,4 @@ and trustworthiness of DL-based face PAD systems.
 
 
 
-If you need the trained model and dataset, you can email shadmar@clarkson.edu. 
+The dependencies can be found here https://github.com/jacobgil/pytorch-grad-cam.  If you need the trained model and dataset, you can email shadmar@clarkson.edu. 
