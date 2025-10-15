@@ -16,6 +16,14 @@ systems by providing a better understanding of their behavior.
 Our provided visual explanations will enhance the transparency
 and trustworthiness of DL-based face PAD systems.
 
+#The codes can be run on Jupyter Notebook.
 
+#The Ensemble_cam.ipynb file is used to generate CAMs for a single test image. 
+
+#The Ensemble_cam_evaluation.ipynb file is used to evaluate the whole test dataset.
+
+#image_path = "Celeba_spoof/test/fake/494514.png" - input image path
+
+#cam_output_path = os.path.join('output/cams', f'cam_{i+1}.jpg') - output folder where generated CAMs are stored; cam_1.jpg is Ensemble-CAM, cam_2.jpg is Grad-CAM, cam_3.jpg is HiResCAM, and cam_4.jpg is Grad-CAM++
 
 The dependencies can be found here https://github.com/jacobgil/pytorch-grad-cam.  If you need the trained model and dataset, you can email shadmar@clarkson.edu. 
