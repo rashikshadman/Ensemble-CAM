@@ -39,11 +39,11 @@ The generated CAMs are saved in the output/cams folder:
 
 cam_output_path = os.path.join('output/cams', f'cam_{i+1}.jpg')
 
-File Name	  Description
-cam_1.jpg	  Ensemble-CAM
-cam_2.jpg	  Grad-CAM
-cam_3.jpg	  HiResCAM
-cam_4.jpg	  Grad-CAM++
+File name	& description: 
+cam_1.jpg: Ensemble-CAM 
+cam_2.jpg: Grad-CAM
+cam_3.jpg: HiResCAM
+cam_4.jpg: Grad-CAM++
 
 2. Ensemble_cam_evaluation.ipynb
 
