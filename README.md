@@ -16,7 +16,33 @@ systems by providing a better understanding of their behavior.
 Our provided visual explanations will enhance the transparency
 and trustworthiness of DL-based face PAD systems.
 
-# The codes can be run on Jupyter Notebook.
+# The codes can be run on Jupyter Notebook. GPU is needed to run the codes.
+
+Prerequisites:
+
+1. Update your system's package list
+   sudo apt update
+
+2. Install pip for python 3 (if not already installed)
+   sudo apt install python3-pip
+
+3. Install OpenCV for python
+   pip install opencv-python
+
+4. Install numpy
+   pip install numpy
+
+5. Install pytorch (for example: CUDA 12.1); 
+   pip install torch==2.4.1 torchvision==0.19.1 torchaudio==2.4.1 --index-url https://download.pytorch.org/whl/cu121
+
+6. Install pillow
+   pip install pillow
+
+7. Install matplotlib
+   sudo apt install python3-matplotlib
+
+8. Install flashtorch
+   pip install flashtorch
 
 Ensemble-CAM
 
@@ -32,6 +58,10 @@ This notebook is used to generate CAMs for a single test image.
 Set the path to your test image:
 
 image_path = "Celeba_spoof/test/fake/494514.png"
+
+Set the path to your model:
+
+face_model = "models/facePADceleb_adamW_new.pt"
 
 🔹 Output
 
